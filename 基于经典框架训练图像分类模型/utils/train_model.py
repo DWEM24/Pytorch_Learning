@@ -5,7 +5,7 @@ from torch import nn
 from tqdm import tqdm
 import copy
 
-from .transform import ImageData
+from .dataloader import ImageData
 from .get_model import Resnet18_ft
 
 
